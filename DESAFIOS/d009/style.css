@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(23, 23, 23);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div#videos, h1 {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+div {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
