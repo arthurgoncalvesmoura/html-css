@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte-titulo: 'Passion One', 'cursive';
+    --fonte-creditos: 'Verdana', sans-serif;
+    --fonte-texto: 'Sriracha', 'cursive';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 10vw;
+    padding-top: 60px;
+}
+
+header p {
+    font-family: var(--fonte-creditos);
+    padding-bottom: 50px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+main p {
+    font-family: var(--fonte-texto);
+}
+
+section {
+    font-family: var(--fonte-texto);
+    padding: 6px;
+}
+
+section p {
+    display: inline-block;
+    font-size: 3.2vw;
+    padding: 10px;
+}
+
+
+
+main p {
+    margin-left: 30px;
+    line-height: 2em;
+}
+
+
+p.imagem {
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    margin: 30px;
+}
+
+#joaninha {
+    background: green url(imagens/background001.jpg) center no-repeat scroll;
+    background-size: cover;
+    box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.486);
+}
+
+section#escrituras {
+    background: black url(imagens/background002.jpg) center no-repeat scroll;
+    background-size: cover;
+    box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.486);
+}
+
+footer {
+    font-family: var(--fonte-creditos);
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
